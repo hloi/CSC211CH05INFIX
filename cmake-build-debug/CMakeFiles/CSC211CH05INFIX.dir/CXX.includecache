@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/hloi/CLionProjects/CSC211CH05INFIX/Infix_To_Postfix.cpp
+Infix_To_Postfix.h
+C:/Users/hloi/CLionProjects/CSC211CH05INFIX/Infix_To_Postfix.h
+sstream
+-
+cctype
+-
+stdexcept
+-
+
+C:/Users/hloi/CLionProjects/CSC211CH05INFIX/Infix_To_Postfix.h
+string
+-
+stack
+-
+
+C:/Users/hloi/CLionProjects/CSC211CH05INFIX/main.cpp
+Infix_To_Postfix.h
+C:/Users/hloi/CLionProjects/CSC211CH05INFIX/Infix_To_Postfix.h
+iostream
+-
+string
+-
+
