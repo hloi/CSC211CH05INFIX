@@ -14,8 +14,12 @@ using std::stack;
 class Infix_To_Postfix {
 public:
     string convert(string& expression);
+    int calculate(string expression);
+
+
 
 private:
+    void eval_operator(char op);
     void process_operator(char op);
     bool is_operator(char ch);
     int precedence(char op) const;
@@ -25,7 +29,8 @@ private:
 
     stack<char> operator_stack;
     string postfix;
-
+    stack<int> operand_stack;
+    void calc();
 };
 
 
